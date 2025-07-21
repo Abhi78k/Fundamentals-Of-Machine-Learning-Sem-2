@@ -1,5 +1,6 @@
 # **1. Simple Linear Regression Model**
 - Used made up data to fit a line using SKLearn and perform predictions.
+- Refer to the file `basicmodel.py` for the full code.
 - 2 features used - Salary and Experience
 - Graph plotted using matplotlib.pyplot shown below:
 <img width="640" height="480" alt="simplemodel" src="https://github.com/user-attachments/assets/b7bf25d9-ce52-400c-a9d3-0253173123c6" />
