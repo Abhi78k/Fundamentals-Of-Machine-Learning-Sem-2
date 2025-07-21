@@ -11,7 +11,7 @@
 
 ## (a) Batch Gradient Descent from Scratch:
 - 2 features used - Area of the house (excluding the basement) and Price.
-- 2200 rows of data used and 10 iterations performed.
+- 2200 rows of data used and 100 iterations performed.
 - Refer to the file `Sbatchgradientdescent.py` for the full code.
 - Data has been normalised to avoid any errors due to large values of price.
 - MSE value after 100 iterations = 104216.281
@@ -21,7 +21,7 @@
 
 ## (b) Stochastic Batch Gradient Descent from Scratch:
 - 2 features used - Area of the house (excluding the basement) and Price.
-- 2200 rows of data used and 10 iterations performed.
+- 2200 rows of data used and 100 iterations performed.
 - Refer to the file `stochasticbatchgradientdescent.py` for the full code.
 - Data has been normalised to avoid any errors due to large values of price.
 - MSE value after 100 iterations = 103843.936
