@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
-data = pd.read_csv('House Price India.csv',nrows=2100)
+data = pd.read_csv('House Price India.csv',nrows=2200)
 
 X = data['Area of the house(excluding basement)'].values.reshape(-1, 1) 
 y = data['Price'].values

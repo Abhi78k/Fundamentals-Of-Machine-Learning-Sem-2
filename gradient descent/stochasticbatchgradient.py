@@ -70,6 +70,7 @@ f = normaliseInputX(f)
 p = prediction(f)
 
 print(f"{denormalize(p):.2f} is the predicted value of the price!")
+print(denormalize(0.007115621071066282))
 
 plt.scatter(x,y)
 plt.title('Stochastic Gradient Descent')

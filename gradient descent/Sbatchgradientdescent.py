@@ -99,7 +99,6 @@ f = normaliseInputX(f)
 p = prediction(f)
 
 print(f"{denormalize(p):.2f} is the predicted value of the price!")
-
 plt.scatter(x,y)
 plt.xlabel('Area of house (excluding basement)')
 plt.ylabel('Price')
